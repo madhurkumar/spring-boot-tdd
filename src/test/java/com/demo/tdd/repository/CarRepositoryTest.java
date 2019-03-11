@@ -15,8 +15,6 @@ import com.demo.tdd.domain.Car;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest
-@AutoConfigureTestDatabase
-@AutoConfigureTestEntityManager
 public class CarRepositoryTest {
 
 	@Autowired
